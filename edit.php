@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=mvc','root','p@55w0rd');
+$pdo = new PDO('mysql:host=localhost;dbname=yourdatabase','root','');
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $data = $_POST['data'];
 
