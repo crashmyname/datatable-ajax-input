@@ -1,6 +1,6 @@
 <?php 
 // header('Content-Type: application/json');
-$pdo = new PDO('mysql:host=localhost;dbname=yourdatabase', 'root', '');
+$pdo = new PDO('mysql:host=localhost;dbname=mvc', 'root', 'p@55w0rd');
 $totalRecordsQuery = "SELECT COUNT(*) FROM employees";
 $totalRecords = $pdo->query($totalRecordsQuery)->fetchColumn();
 
